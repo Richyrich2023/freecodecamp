@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta 
+<link rel="stylesheet" href="styles.css">
+<body>
+  <h1 id="title">Hello World</h1>
+  <p id="description">#Best Form of All Time</p>
+  <div>
+    <form id="survey-form">
+      <input placeholder="Enter your name" id="name" type="text" required></input>
+      <label id="name-label">Name</label>
+
+      <input placeholder="Enter your email" type="email" id="email" required></input>
+      <label id="email-label">Email</label>
+
+      <input placeholder="Age" id="number" type="number" min="0" max="9"></input>
+      <label id="number-label">Number</label>
+      <select id="dropdown">
+        <option>Option 1</option>
+        <option>Option 2</option>
+      </select>
+      <select>
+        <input value="A" type="radio" name="test"></input>
+        <input value="B" type="radio" name="test"></input>
+      </select> 
+      <input type="checkbox" id="survey-form" value="ABC"/>
+      <input type="checkbox" id="survey-form" value="123"/>
+      <input type="checkbox" id="survey-form" value="EZPZ"/>
+
+      <textarea id="survey-form"></textarea>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
